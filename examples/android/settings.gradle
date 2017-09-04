@@ -1,5 +1,5 @@
 rootProject.name = 'examples'
 include ':react-native-zhb-umeng-share'
-project(':react-native-zhb-umeng-share').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zhb-umeng-share/android/app')
+project(':react-native-zhb-umeng-share').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zhb-umeng-share/android')
 
 include ':app'

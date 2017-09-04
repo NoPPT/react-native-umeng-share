@@ -3242,8 +3242,8 @@ react-devtools-core@^2.5.0:
     ws "^2.0.3"
 
 react-native-zhb-umeng-share@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/react-native-zhb-umeng-share/-/react-native-zhb-umeng-share-1.0.0.tgz#d7ac776ad6914ba6e38c1b9ba9070b7aac04cd0a"
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/react-native-zhb-umeng-share/-/react-native-zhb-umeng-share-1.0.1.tgz#4a3992d0e888e5fda9fdeabb2c90c547ea3d488c"
 
 react-native@0.48.1:
   version "0.48.1"
