@@ -1,16 +1,27 @@
 {
   "name": "react-native-umeng-share",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "react native umeng share",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react native",
+    "rn",
+    "umeng",
+    "share",
+    "social"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.46.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NoPPT/react-native-umeng-share.git"
   },
-  "author": "",
+  "author": "zhuang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NoPPT/react-native-umeng-share/issues"
