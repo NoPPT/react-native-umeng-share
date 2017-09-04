@@ -11,34 +11,26 @@ import {
   Text,
   View
 } from 'react-native';
-import * as ShareUtils from 'react-native-zhb-umeng-share';
+import * as Utils from 'react-native-zhb-umeng-share';
 
 export default class examples extends Component {
 
-  constructor(props) {
-    super(props);
-    ShareUtils.setAppkey('123');
-    ShareUtils.setPlatform(ShareUtils.PlatformType.Sina, '123', '123', "http://www.baidu.com");
-  }
-
   share = () => {
-    ShareUtils.share(ShareUtils.PlatformType.Sina, {
-      type: 0,
-      title: '快递圈',
-      content: '快递圈-快递员必看的行业圈，这里有最全的快递行业人员',
-      url: 'https://pic.ksudi.com:8410/cer/index_shuttle.html'
+    Utils.share(Utils.PlatformType.Sina, {
+      title: '123',
+      content: '123',
+      url: '1231'
     }).then(response => {
-      console.log(response);
+      alert(JSON.stringify(response));
     }).catch(error => {
-      console.log(error);
+      alert(JSON.stringify(error));
     });
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}
-          onPress={this.share}>
+        <Text style={styles.welcome} onPress={this.share}>
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>

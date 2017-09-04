@@ -15,8 +15,6 @@
 		752503271F5D947B00CDC85D /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7525031B1F5D947B00CDC85D /* UMSocialNetwork.framework */; };
 		752503281F5D947B00CDC85D /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7525031E1F5D947B00CDC85D /* libUMSocialLog.a */; };
 		752503291F5D947B00CDC85D /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752503211F5D947B00CDC85D /* UShareUI.framework */; };
-		7525032C1F5D949B00CDC85D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7525032B1F5D949B00CDC85D /* libsqlite3.tbd */; };
-		7525032E1F5D94A200CDC85D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7525032D1F5D94A200CDC85D /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,8 +31,8 @@
 
 /* Begin PBXFileReference section */
 		752503021F5D946700CDC85D /* libRCTUmengShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTUmengShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7525030C1F5D947B00CDC85D /* RCTUmengShareManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTUmengShareManage.h; sourceTree = "<group>"; };
-		7525030D1F5D947B00CDC85D /* RCTUmengShareManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTUmengShareManage.m; sourceTree = "<group>"; };
+		7525030C1F5D947B00CDC85D /* RCTUmengShareManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTUmengShareManage.h; path = RCTUmengShare/RCTUmengShareManage.h; sourceTree = "<group>"; };
+		7525030D1F5D947B00CDC85D /* RCTUmengShareManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTUmengShareManage.m; path = RCTUmengShare/RCTUmengShareManage.m; sourceTree = "<group>"; };
 		752503111F5D947B00CDC85D /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
 		752503121F5D947B00CDC85D /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
 		752503141F5D947B00CDC85D /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
@@ -47,8 +45,6 @@
 		7525031E1F5D947B00CDC85D /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
 		752503201F5D947B00CDC85D /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		752503211F5D947B00CDC85D /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
-		7525032B1F5D949B00CDC85D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
-		7525032D1F5D94A200CDC85D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7525032E1F5D94A200CDC85D /* CoreGraphics.framework in Frameworks */,
-				7525032C1F5D949B00CDC85D /* libsqlite3.tbd in Frameworks */,
 				752503261F5D947B00CDC85D /* UMSocialCore.framework in Frameworks */,
 				752503231F5D947B00CDC85D /* libSocialQQ.a in Frameworks */,
 				752503271F5D947B00CDC85D /* UMSocialNetwork.framework in Frameworks */,
@@ -74,9 +68,10 @@
 		752502F71F5D941F00CDC85D = {
 			isa = PBXGroup;
 			children = (
-				752503041F5D946700CDC85D /* RCTUmengShare */,
+				7525030E1F5D947B00CDC85D /* UMSocial */,
+				7525030C1F5D947B00CDC85D /* RCTUmengShareManage.h */,
+				7525030D1F5D947B00CDC85D /* RCTUmengShareManage.m */,
 				752503031F5D946700CDC85D /* Products */,
-				7525032A1F5D949B00CDC85D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,16 +83,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		752503041F5D946700CDC85D /* RCTUmengShare */ = {
-			isa = PBXGroup;
-			children = (
-				7525030C1F5D947B00CDC85D /* RCTUmengShareManage.h */,
-				7525030D1F5D947B00CDC85D /* RCTUmengShareManage.m */,
-				7525030E1F5D947B00CDC85D /* UMSocial */,
-			);
-			path = RCTUmengShare;
-			sourceTree = "<group>";
-		};
 		7525030E1F5D947B00CDC85D /* UMSocial */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +91,8 @@
 				7525031D1F5D947B00CDC85D /* UMSocialSDKPlugin */,
 				7525031F1F5D947B00CDC85D /* UMSocialUI */,
 			);
-			path = UMSocial;
+			name = UMSocial;
+			path = RCTUmengShare/UMSocial;
 			sourceTree = "<group>";
 		};
 		7525030F1F5D947B00CDC85D /* SocialLibraries */ = {
@@ -171,15 +157,6 @@
 				752503211F5D947B00CDC85D /* UShareUI.framework */,
 			);
 			path = UMSocialUI;
-			sourceTree = "<group>";
-		};
-		7525032A1F5D949B00CDC85D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7525032D1F5D94A200CDC85D /* CoreGraphics.framework */,
-				7525032B1F5D949B00CDC85D /* libsqlite3.tbd */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,6 +376,7 @@
 				7525030A1F5D946700CDC85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
