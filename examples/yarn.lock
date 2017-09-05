@@ -836,7 +836,7 @@ babel-types@^6.18.0, babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
 
-babylon@^6.17.0, babylon@^6.17.4, babylon@^6.18.0:
+babylon@^6.17.0, babylon@^6.18.0:
   version "6.18.0"
   resolved "https://registry.npmjs.org/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
@@ -2061,14 +2061,14 @@ isstream@~0.1.2:
   resolved "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
 istanbul-api@^1.1.1:
-  version "1.1.13"
-  resolved "https://registry.npmjs.org/istanbul-api/-/istanbul-api-1.1.13.tgz#7197f64413600ebdfec6347a2dc3d4e03f97ed5a"
+  version "1.1.14"
+  resolved "https://registry.npmjs.org/istanbul-api/-/istanbul-api-1.1.14.tgz#25bc5701f7c680c0ffff913de46e3619a3a6e680"
   dependencies:
     async "^2.1.4"
     fileset "^2.0.2"
     istanbul-lib-coverage "^1.1.1"
     istanbul-lib-hook "^1.0.7"
-    istanbul-lib-instrument "^1.7.5"
+    istanbul-lib-instrument "^1.8.0"
     istanbul-lib-report "^1.1.1"
     istanbul-lib-source-maps "^1.2.1"
     istanbul-reports "^1.1.2"
@@ -2086,15 +2086,15 @@ istanbul-lib-hook@^1.0.7:
   dependencies:
     append-transform "^0.4.0"
 
-istanbul-lib-instrument@^1.4.2, istanbul-lib-instrument@^1.7.2, istanbul-lib-instrument@^1.7.5:
-  version "1.7.5"
-  resolved "https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-1.7.5.tgz#adb596f8f0cb8b95e739206351a38a586af21b1e"
+istanbul-lib-instrument@^1.4.2, istanbul-lib-instrument@^1.7.2, istanbul-lib-instrument@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-1.8.0.tgz#66f6c9421cc9ec4704f76f2db084ba9078a2b532"
   dependencies:
     babel-generator "^6.18.0"
     babel-template "^6.16.0"
     babel-traverse "^6.18.0"
     babel-types "^6.18.0"
-    babylon "^6.17.4"
+    babylon "^6.18.0"
     istanbul-lib-coverage "^1.1.1"
     semver "^5.3.0"
 
@@ -2130,8 +2130,8 @@ jest-changed-files@^21.0.0:
     throat "^4.0.0"
 
 jest-cli@^21.0.0:
-  version "21.0.0"
-  resolved "https://registry.npmjs.org/jest-cli/-/jest-cli-21.0.0.tgz#25fc36badb6a78dc180a67f02c037c0209d12a98"
+  version "21.0.1"
+  resolved "https://registry.npmjs.org/jest-cli/-/jest-cli-21.0.1.tgz#b3e9ef6d0ae0e43870932d2ed3d10de0515e9d34"
   dependencies:
     ansi-escapes "^2.0.0"
     chalk "^2.0.1"
@@ -3262,8 +3262,8 @@ react-devtools-core@^2.5.0:
     ws "^2.0.3"
 
 react-native-zhb-umeng-share@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/react-native-zhb-umeng-share/-/react-native-zhb-umeng-share-1.0.3.tgz#7c5f1723f53568d3fe8c941ffdd84cf53cf83764"
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/react-native-zhb-umeng-share/-/react-native-zhb-umeng-share-1.0.5.tgz#39b13db69a5fb69645c290f5b273485ef994707f"
 
 react-native@0.48.1:
   version "0.48.1"

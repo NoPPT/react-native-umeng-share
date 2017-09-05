@@ -16,7 +16,7 @@
 		752503281F5D947B00CDC85D /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7525031E1F5D947B00CDC85D /* libUMSocialLog.a */; };
 		752503291F5D947B00CDC85D /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752503211F5D947B00CDC85D /* UShareUI.framework */; };
 		752504921F5DB0FA00CDC85D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752504911F5DB0FA00CDC85D /* CoreGraphics.framework */; };
-		752504A31F5DB1C700CDC85D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 752504A21F5DB1C700CDC85D /* libsqlite3.dylib */; };
+		75F741EB1F5E38E300F2045D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F741EA1F5E38E300F2045D /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,7 +48,7 @@
 		752503201F5D947B00CDC85D /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		752503211F5D947B00CDC85D /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
 		752504911F5DB0FA00CDC85D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		752504A21F5DB1C700CDC85D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		75F741EA1F5E38E300F2045D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +56,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752504A31F5DB1C700CDC85D /* libsqlite3.dylib in Frameworks */,
 				752504921F5DB0FA00CDC85D /* CoreGraphics.framework in Frameworks */,
 				752503261F5D947B00CDC85D /* UMSocialCore.framework in Frameworks */,
 				752503231F5D947B00CDC85D /* libSocialQQ.a in Frameworks */,
 				752503271F5D947B00CDC85D /* UMSocialNetwork.framework in Frameworks */,
+				75F741EB1F5E38E300F2045D /* libsqlite3.dylib in Frameworks */,
 				752503291F5D947B00CDC85D /* UShareUI.framework in Frameworks */,
 				752503281F5D947B00CDC85D /* libUMSocialLog.a in Frameworks */,
 				752503251F5D947B00CDC85D /* libSocialWeChat.a in Frameworks */,
@@ -169,7 +169,7 @@
 		752504901F5DB0FA00CDC85D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				752504A21F5DB1C700CDC85D /* libsqlite3.dylib */,
+				75F741EA1F5E38E300F2045D /* libsqlite3.dylib */,
 				752504911F5DB0FA00CDC85D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
@@ -307,6 +307,7 @@
 					"$(PROJECT_DIR)/RCTUmengShare/UMSocial/SocialLibraries/Sina",
 					"$(PROJECT_DIR)/RCTUmengShare/UMSocial/SocialLibraries/WeChat",
 					"$(PROJECT_DIR)/RCTUmengShare/UMSocial/UMSocialSDKPlugin",
+					"$(PROJECT_DIR)",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -365,6 +366,7 @@
 					"$(PROJECT_DIR)/RCTUmengShare/UMSocial/SocialLibraries/Sina",
 					"$(PROJECT_DIR)/RCTUmengShare/UMSocial/SocialLibraries/WeChat",
 					"$(PROJECT_DIR)/RCTUmengShare/UMSocial/UMSocialSDKPlugin",
+					"$(PROJECT_DIR)",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
